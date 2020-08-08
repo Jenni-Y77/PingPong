@@ -50,8 +50,8 @@ function draw(){
    
    
     //pc computer paddle
-    fill(50,0,350);
-    stroke(250,0,0);
+    fill("#FFA500");
+    stroke("#FFA500");
    var paddle2y =ball.y-paddle2Height/2;  rect(paddle2Y,paddle2y,paddle2,paddle2Height,100);
     
     //function midline call
