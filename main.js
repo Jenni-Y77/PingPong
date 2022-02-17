@@ -96,10 +96,10 @@ function drawScore(){
     textSize(20);
     fill("white");
     stroke(250,0,0)
-    text("Jugador:",100,50)
-    text(playerscore,140,50);
+    text("Jugador: ",100,50)
+    text(playerscore,150,50);
     text("Computadora:",500,50)
-    text(pcscore,555,50)
+    text(pcscore,565,50)
 }
 
 
@@ -131,7 +131,7 @@ if(pcscore ==4){
     fill("white");
     stroke("white");
     textSize(25)
-    text("¡Fin del juego!☹☹",width/2,height/2);
+    text("¡Fin del juego! ☹☹",width/2,height/2);
     text("Actualiza la página para reiniciar.",width/2,height/2+30)
     noLoop();
     pcscore = 0;
