@@ -97,9 +97,9 @@ function drawScore(){
     fill("white");
     stroke(250,0,0)
     text("Jugador: ",100,50)
-    text(playerscore,175,50);
+    text(playerscore,215,50);
     text("Computadora:",475,50)
-    text(pcscore,590,50)
+    text(pcscore,625,50)
 }
 
 
@@ -147,7 +147,7 @@ function models(){
     textSize(18);
     fill(255);
     noStroke();
-    text("Ancho:"+width,175,15);
+    text("Ancho:"+width,200,15);
     text("Velocidad:"+abs(ball.dx),50,15);
     text("Alto:"+height,275,15)
 }
